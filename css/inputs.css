@@ -1,0 +1,140 @@
+.btn-dark {
+  display: inline-block;
+  padding: 12px 26px;
+  background: var(--navy);
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: var(--r-sm);
+  transition: var(--ease);
+  margin-top: 6px;
+}
+.btn-dark:hover { background: var(--gold); }
+
+.btn-outline-dark {
+  display: inline-block;
+  padding: 11px 26px;
+  border: 1.5px solid var(--navy);
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: var(--r-sm);
+  transition: var(--ease);
+  margin-top: 6px;
+}
+.btn-outline-dark:hover { background: var(--navy); color: var(--white); }
+
+.btn-view-all {
+  flex-shrink: 0;
+  align-self: flex-end;
+  padding: 10px 26px;
+  background: var(--gold);
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: var(--r-sm);
+  transition: var(--ease);
+  margin-bottom: 4px;
+}
+.btn-view-all:hover { background: var(--gold-dark); }
+
+.btn-touch {
+  flex-shrink: 0;
+  margin-left: auto;
+  padding: clamp(9px, 1vw, 11px) clamp(14px, 2vw, 26px);
+  background: var(--navy);
+  color: var(--white);
+  font-size: clamp(11px, 1.2vw, 13px);
+  font-weight: 500;
+  border-radius: 50px;
+  transition: var(--ease);
+  white-space: nowrap;
+}
+.btn-touch:hover { background: var(--gold); }
+
+.btn-hero {
+  display: inline-block;
+  padding: clamp(11px, 1.2vw, 13px) clamp(24px, 3vw, 34px);
+  background: var(--white); color: var(--navy);
+  font-size: clamp(12px, 1.4vw, 14px); font-weight: 600;
+  border-radius: var(--r-sm);
+  box-shadow: 0 6px 28px rgba(0,0,0,0.22);
+  transition: var(--ease);
+}
+.btn-hero:hover { background: var(--gold); color: var(--white); transform: translateY(-2px); }
+
+.booking-form { margin-top: clamp(24px, 4vw, 44px); }
+
+.booking-fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+  gap: 14px; margin-bottom: 18px;
+}
+.booking-field label {
+  display: block; font-size: 12px; font-weight: 500;
+  color: var(--navy); margin-bottom: 7px;
+}
+.booking-field label span { color: var(--gold); }
+.select-wrap { position: relative; }
+.select-wrap select {
+  width: 100%; appearance: none; -webkit-appearance: none;
+  background: var(--white); border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  padding: 12px 34px 12px 14px;
+  font-size: 13.5px; color: var(--muted); cursor: pointer;
+  transition: var(--ease);
+}
+.select-wrap select:focus { border-color: var(--gold); }
+.select-wrap i {
+  position: absolute; right: 13px; top: 50%;
+  transform: translateY(-50%); font-size: 10px;
+  color: var(--muted); pointer-events: none;
+}
+.booking-field input {
+  width: 100%; background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  padding: 12px 14px;
+  font-size: 13.5px; color: var(--text); transition: var(--ease);
+}
+.booking-field input::placeholder { color: var(--muted); }
+.booking-field input:focus { border-color: var(--gold); outline: none; }
+.booking-submit { display: flex; justify-content: flex-end; }
+.btn-book-now {
+  padding: 12px 34px;
+  background: var(--navy); color: var(--white);
+  font-size: 14px; font-weight: 500;
+  border-radius: var(--r-sm);
+  cursor: pointer; transition: var(--ease); border: none;
+}
+.btn-book-now:hover { background: var(--gold); }
+
+.nl-form {
+  display: flex; flex: 1; max-width: 380px; min-width: min(280px, 100%);
+  border-radius: var(--r-sm); overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.13);
+}
+.nl-form input {
+  flex: 1; padding: 12px 16px;
+  background: rgba(255,255,255,0.06); color: var(--white);
+  font-size: 13px; border: none;
+}
+.nl-form input::placeholder { color: rgba(255,255,255,0.36); }
+.nl-form input:focus { outline: none; background: rgba(255,255,255,0.10); }
+.nl-form button {
+  flex-shrink: 0; padding: 12px 20px;
+  background: var(--navy-deep); color: var(--white);
+  font-size: 13px; font-weight: 500; cursor: pointer;
+  border: none; transition: var(--ease);
+}
+.nl-form button:hover { background: var(--gold); }
+
+.testi-next-btn {
+  width: 44px; height: 44px; border-radius: 50%;
+  border: 1.5px solid rgba(255,255,255,0.22);
+  background: transparent; color: rgba(255,255,255,0.60);
+  font-size: 14px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: var(--ease);
+}
+.testi-next-btn:hover { border-color: var(--gold); color: var(--gold); }

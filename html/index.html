@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Stay Luxury Hotel — Experience world-class comfort, beautifully designed rooms, fine dining and exceptional service in the heart of the city." />
+  <title>Luxury Hotel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="nav-pill">
+      <a href="#home" class="nav-logo">
+        <img src="../images/img00.png" alt="Stay Hotel Logo" class="nav-logo-img" />
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#rooms" class="nav-link">Rooms</a>
+        <a href="#amenities" class="nav-link">Amenities</a>
+        <a href="#contact" class="nav-link">Contact Us</a>
+      </nav>
+      <a href="#booking" class="btn-touch">Get in touch</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="../images/img.jpg" alt="Luxury Hotel" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">
+        <i class="fas fa-circle"></i> Luxury Space That You Can Afford <i class="fas fa-circle"></i>
+      </p>
+      <h1 class="hero-title">Welcome to Your<br />Perfect Stay</h1>
+      <a href="#rooms" class="btn-hero">Book Your Stay</a>
+    </div>
+  </section>
+
+  <section class="rooms-fac-section" id="rooms">
+    <div class="container">
+
+      <div class="rooms-header">
+        <div>
+          <h2 class="sec-title">Our Hotel Rooms</h2>
+          <p class="sec-desc">Discover a stay where comfort meets sophistication. Our hotel offers beautifully designed rooms, exceptional service.</p>
+        </div>
+        <a href="#" class="btn-view-all">View All</a>
+      </div>
+      <div class="rooms-grid">
+        <div class="room-card reveal">
+          <div class="room-img-wrap">
+            <img src="../images/img1.jpg" alt="Luxury Room" loading="lazy" />
+          </div>
+          <h3>Luxury Rooms &amp;<br />Suites</h3>
+          <p class="room-price"><span>$666</span> /Day</p>
+          <p class="room-loc"><i class="fas fa-location-dot"></i> The Global Palace</p>
+        </div>
+        <div class="room-card reveal reveal-d1">
+          <div class="room-img-wrap">
+            <img src="../images/img2.jpg" alt="Elegant Living" loading="lazy" />
+          </div>
+          <h3>Elegant Living Spaces</h3>
+          <p class="room-price"><span>$660</span> /Day</p>
+          <p class="room-loc"><i class="fas fa-location-dot"></i> The Global Palace</p>
+        </div>
+        <div class="room-card reveal reveal-d2">
+          <div class="room-img-wrap">
+            <img src="../images/img3.jpg" alt="Exclusive Suite" loading="lazy" />
+          </div>
+          <h3>Exclusive Room &amp; Suites</h3>
+          <p class="room-price"><span>$880</span> /Day</p>
+          <p class="room-loc"><i class="fas fa-location-dot"></i> The Global Palace</p>
+        </div>
+      </div>
+
+      <div id="amenities">
+        <p class="fac-eyebrow">
+          <i class="fas fa-circle"></i> Facilities <i class="fas fa-circle"></i>
+        </p>
+        <h2 class="sec-title centered">Hotel Facilities</h2>
+        <div class="fac-grid">
+        <div class="fac-card reveal">
+          <div class="fac-icon">
+            <svg viewBox="0 0 48 36" fill="none"><rect x="2" y="18" width="44" height="14" rx="3" stroke="currentColor" stroke-width="2"/><rect x="6" y="10" width="16" height="10" rx="2" stroke="currentColor" stroke-width="1.8"/><rect x="26" y="10" width="16" height="10" rx="2" stroke="currentColor" stroke-width="1.8"/><line x1="2" y1="32" x2="2" y2="36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="46" y1="32" x2="46" y2="36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h4>King Beds</h4>
+          <p>Sleep soundly on our plush, high-quality with fresh linens</p>
+        </div>
+        <div class="fac-card reveal reveal-d1">
+          <div class="fac-icon">
+            <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="17" stroke="currentColor" stroke-width="2"/><line x1="20" y1="8" x2="20" y2="14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M13 20 H27 M20 14 L20 26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M13 26 L27 26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h4>Breakfast</h4>
+          <p>Sleep soundly on our plush, high-quality with fresh linens</p>
+        </div>
+        <div class="fac-card reveal reveal-d2">
+          <div class="fac-icon">
+            <svg viewBox="0 0 40 36" fill="none"><path d="M20 2 C10 2 4 10 4 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M20 2 C30 2 36 10 36 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M12 18 C12 12 28 12 28 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M16 26 C16 22 24 22 24 26" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="20" cy="30" r="2" fill="currentColor"/></svg>
+          </div>
+          <h4>Free-WiFi</h4>
+          <p>Sleep soundly on our plush, high-quality with fresh linens</p>
+        </div>
+        <div class="fac-card reveal reveal-d3">
+          <div class="fac-icon">
+            <svg viewBox="0 0 44 36" fill="none"><path d="M4 22 C4 14 10 8 22 8 C34 8 40 14 40 22" stroke="currentColor" stroke-width="2" fill="none"/><rect x="2" y="22" width="40" height="6" rx="2" stroke="currentColor" stroke-width="2"/><path d="M36 8 L36 4 M38 6 L34 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h4>Bathroom</h4>
+          <p>Sleep soundly on our plush, high-quality with fresh linens</p>
+        </div>
+      </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about-offers-section" id="about">
+    <div class="container">
+
+      <div class="about-grid">
+        <div class="about-imgs reveal">
+          <div class="about-img-back">
+            <img src="../images/img4.jpg" alt="Hotel Pool" loading="lazy" />
+          </div>
+          <div class="about-img-front">
+            <img src="../images/img5.jpg" alt="Hotel Tower" loading="lazy" />
+          </div>
+          <div class="about-year-tag">
+            <span class="year-label">Started In</span>
+            <span class="year-num">2022</span>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p class="eyebrow-row">
+            <i class="fas fa-circle"></i> About Us <i class="fas fa-circle"></i>
+          </p>
+          <h2 class="sec-title">Welcome to Your<br />Home Away From<br />Home</h2>
+          <p>Welcome to our hotel, where comfort meets refined hospitality. We take pride in offering beautifully designed rooms, exceptional service, and a warm atmosphere that makes every stay unforgettable. Whether you're visiting for business or leisure, our team is dedicated to providing a seamless, relaxing, and truly luxurious experience.</p>
+          <a href="#rooms" class="btn-dark">About Hotel</a>
+        </div>
+      </div>
+
+      <p class="eyebrow-row centered">
+        <i class="fas fa-circle"></i> Our offers <i class="fas fa-circle"></i>
+      </p>
+      <h2 class="sec-title centered">Exclusive offers</h2>
+      <div class="offers-grid">
+        <div class="offer-card offer-lg reveal">
+          <img src="../images/img6.jpg" alt="Bar Lounge" />
+          <div class="offer-caption">
+            <span class="offer-pill">Bar &amp; Lounge - 60% OFF</span>
+            <p>Family &amp; Group Offers</p>
+          </div>
+        </div>
+        <div class="offer-card offer-sm reveal reveal-d1">
+          <img src="../images/img7.jpg" alt="Dining" />
+        </div>
+        <div class="offer-card offer-sm reveal reveal-d2">
+          <img src="../images/img8.jpg" alt="Couple" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="testi-section">
+    <div class="container">
+      <div class="testi-top">
+        <div class="testi-top-left">
+          <p class="eyebrow-row light-row">
+            <i class="fas fa-circle"></i> Testimonial <i class="fas fa-circle"></i>
+          </p>
+          <h2 class="sec-title white">Built on Trust and<br />Collaboration</h2>
+        </div>
+        <div class="testi-top-right">
+          <p>Our clients are at the heart of everything we do. From startups to global brands, we've had the privilege of turning ideas into meaningful designs</p>
+          <button class="testi-next-btn" id="testiNext" aria-label="Next">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="testi-cards-row" id="testiRow">
+        <div class="testi-card active">
+          <div class="testi-quote">"</div>
+          <p class="testi-body">This service exceeded all my expectations. The team was professional, fast, and truly cared about delivering a top-notch experience from start to finish.</p>
+          <div class="testi-foot">
+            <img src="../images/img9.jpg" alt="Stefan Sears" />
+            <div class="testi-meta">
+              <strong>Stefan Sears</strong>
+              <span>Developer, Easy Elements Inc</span>
+            </div>
+            <div class="testi-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card active">
+          <div class="testi-quote">"</div>
+          <p class="testi-body">This service exceeded all my expectations. The team was professional, fast, and truly cared about delivering a top-notch experience from start to finish.</p>
+          <div class="testi-foot">
+            <img src="../images/img10.jpg" alt="Stefan Sears" />
+            <div class="testi-meta">
+              <strong>Stefan Sears</strong>
+              <span>Developer, Easy Elements Inc</span>
+            </div>
+            <div class="testi-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-quote">"</div>
+          <p class="testi-body">An exceptional experience from the moment we arrived. Every detail was thoughtfully curated, and the staff went above and beyond to ensure our comfort.</p>
+          <div class="testi-foot">
+            <img src="../images/img03.jpg" alt="Maria Chen" />
+            <div class="testi-meta">
+              <strong>Maria Chen</strong>
+              <span>Suite Guest, Grand Luxe</span>
+            </div>
+            <div class="testi-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-quote">"</div>
+          <p class="testi-body">Absolutely stunning property. The rooms are impeccable, the food world-class, and the service made us feel truly at home. Will return again!</p>
+          <div class="testi-foot">
+            <img src="../images/img04.jpg" alt="James Okon" />
+            <div class="testi-meta">
+              <strong>James Okon</strong>
+              <span>Deluxe Guest, Grand Luxe</span>
+            </div>
+            <div class="testi-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="local-section" id="culture">
+    <div class="container">
+      <div class="local-row">
+        <div class="local-img reveal">
+          <img src="../images/img01.jpg" alt="Art and Culture" />
+        </div>
+        <div class="local-text reveal">
+          <p class="eyebrow-row">
+            <i class="fas fa-circle"></i> Local Amenities <i class="fas fa-circle"></i>
+          </p>
+          <h2 class="sec-title">Art &amp; Culture</h2>
+          <p>Welcome to our hotel, where comfort meets refined hospitality. We take pride in offering beautifully designed rooms, exceptional service, and a warm atmosphere that makes every stay unforgettable. Whether you're visiting for business or leisure, our team is dedicated to providing a seamless, relaxing, and truly luxurious experience.</p>
+          <a href="#" class="btn-outline-dark">Read More</a>
+        </div>
+      </div>
+
+      <div class="local-row local-row-reverse">
+        <div class="local-text reveal">
+          <p class="eyebrow-row">
+            <i class="fas fa-circle"></i> Local Amenities <i class="fas fa-circle"></i>
+          </p>
+          <h2 class="sec-title">Restaurants</h2>
+          <p>Welcome to our hotel, where comfort meets refined hospitality. We take pride in offering beautifully designed rooms, exceptional service, and a warm atmosphere that makes every stay unforgettable. Whether you're visiting for business or leisure, our team is dedicated to providing a seamless, relaxing, and truly luxurious experience.</p>
+          <a href="#" class="btn-outline-dark">Read More</a>
+        </div>
+        <div class="local-img reveal">
+          <img src="../images/img02.jpg" alt="Restaurant" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="events-section">
+    <div class="container">
+      <p class="eyebrow-row">
+        <i class="fas fa-circle"></i> Local Amenities <i class="fas fa-circle"></i>
+      </p>
+      <h2 class="sec-title">Unforgettable Events<br />at Our Hotel</h2>
+      <div class="event-wrap reveal">
+        <div class="event-img">
+          <img src="../images/img05.jpg" alt="Hotel Event" />
+        </div>
+        <div class="event-box">
+          <span class="event-date">16 December 2025</span>
+          <h3>Grand Celebration<br />Hotel Event</h3>
+          <div class="event-price">$ 660</div>
+          <a href="#booking" class="btn-outline-dark">Join Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="booking-section" id="booking">
+    <div class="container">
+      <p class="eyebrow-row centered">
+        <i class="fas fa-circle"></i> Entro Hotel <i class="fas fa-circle"></i>
+      </p>
+      <h2 class="sec-title centered">Booking Availability</h2>
+      <form class="booking-form" id="bookingForm">
+        <div class="booking-fields">
+          <div class="booking-field">
+            <label>Select Room <span>*</span></label>
+            <div class="select-wrap">
+              <select>
+                <option value="">Select Room</option>
+                <option>Luxury Rooms &amp; Suites</option>
+                <option>Elegant Living Spaces</option>
+                <option>Exclusive Room &amp; Suites</option>
+              </select>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="booking-field">
+            <label>Booking Date <span>*</span></label>
+            <input type="date" />
+          </div>
+          <div class="booking-field">
+            <label>Adult <span>*</span></label>
+            <input type="number" placeholder="Total Adult" min="1" />
+          </div>
+          <div class="booking-field">
+            <label>Children</label>
+            <input type="number" placeholder="Total Children" min="0" />
+          </div>
+        </div>
+        <div class="booking-submit">
+          <button type="submit" class="btn-book-now">Booking Now</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <div id="contact"></div>
+  <footer class="footer">
+
+    <div class="footer-nl">
+      <div class="container nl-inner">
+        <h2 class="nl-title">Join Our Newsletter</h2>
+        <form class="nl-form" id="nlForm">
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-body">
+      <div class="container footer-cols">
+        <div class="footer-brand">
+          <svg width="56" height="36" viewBox="0 0 52 32" fill="none">
+            <path d="M5 28 C14 10, 26 3, 40 11 C44 13, 48 18, 47 22" stroke="rgba(255,255,255,0.65)" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+            <path d="M3 30 C15 14, 28 7, 44 17" stroke="rgba(255,255,255,0.3)" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+          </svg>
+        </div>
+
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="#rooms">Rooms &amp; Suites</a></li>
+            <li><a href="#">Dining</a></li>
+            <li><a href="#">Spa &amp; Wellness</a></li>
+            <li><a href="#">Special Offers</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Guest Services</h5>
+          <ul>
+            <li><a href="#">24/7 Front Desk</a></li>
+            <li><a href="#">Parking</a></li>
+            <li><a href="#">Room Service</a></li>
+            <li><a href="#">Free Wi-Fi</a></li>
+            <li><a href="#">Concierge Service</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-contact">
+          <h5>Contact Us</h5>
+          <div class="contact-grid">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div><strong>Call Us Now</strong><span>+1250550186</span></div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div><strong>Send US Email</strong><span>Stay@gmail.com</span></div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-location-dot"></i></div>
+              <div><strong>Our Location</strong><span>MST 2L9 Toronto, Canada</span></div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-clock"></i></div>
+              <div><strong>Working Hours</strong><span>Monday-Friday: 8:30 AM - 5:30 PM</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-row">
+        <p>© Stay, All rights reserved.</p>
+        <div class="footer-social-links">
+          <a href="#">Facebook</a><span>|</span>
+          <a href="#">LinkedIn</a><span>|</span>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="../script.js"></script>
+</body>
+</html>
